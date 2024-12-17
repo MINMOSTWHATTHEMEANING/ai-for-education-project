@@ -1,98 +1,79 @@
 <div align="center">
+  <img width="200" height="200" style="display: block;" src="./images/logo.png">
 
-<img width="200" height="200" style="display: block;" src="./images/logo.png">
+  # AI for Education: Exploring the Potential of GPT Mobile
 
-# GPT Mobile
-
-### Chat Assistant for Android that supports chatting with multiple models at once.
+  ### A Chat Assistant for Android to Investigate AI in Education
 
 <p>
-  <a href="https://mailchi.mp/kotlinweekly/kotlin-weekly-431"><img alt="Kotlin Weekly" src="https://img.shields.io/badge/Kotlin%20Weekly-%23431-blue"/></a>
   <img alt="Android" src="https://img.shields.io/badge/Platform-Android-green.svg"/>
-  <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Taewan-P/gpt_mobile/release-build.yml">
-  <a href="https://hosted.weblate.org/engage/gptmobile/"><img src="https://hosted.weblate.org/widget/gptmobile/gptmobile/svg-badge.svg" alt="Translation status" /></a>
-  <a href="https://github.com/Taewan-P/gpt_mobile/releases/"><img alt="GitHub Releases Total Downloads" src="https://img.shields.io/github/downloads/Taewan-P/gpt_mobile/total?label=Downloads&logo=github"/></a>
-  <a href="https://github.com/Taewan-P/gpt_mobile/releases/latest/"><img alt="GitHub Releases (latest by date)" src="https://img.shields.io/github/v/release/Taewan-P/gpt_mobile?color=black&label=Stable&logo=github"/></a>
-</p>
+    <a href="https://github.com/Taewan-P/gpt_mobile"><img alt="Original Project" src="https://img.shields.io/badge/Original Project-GPT%20Mobile-blue"/></a>
 
+</p>
 
 </div>
 
+## Introduction
+
+This project explores the potential of Artificial Intelligence (AI) in education using **GPT Mobile**, an open-source Android application. We aim to investigate how AI-powered chat assistants can be used to enhance learning experiences and support educational activities. This is a research project for educational purposes and is not intended as a fully functional application for production use.
+
+## Key Areas of Investigation
+
+This project focuses on the following aspects of AI in education, utilizing GPT Mobile as a study tool:
+
+*   **Personalized Learning:** How can AI adapt to individual student needs?
+*   **Interactive Learning Experiences:** How can chat assistants make learning more engaging?
+*   **Teacher Support:** How can AI assist teachers in lesson planning and assessment?
+*   **Accessibility in Education:** Can AI provide learning opportunities to all students?
+*   **Ethical Considerations:** What are the potential ethical issues associated with AI in education?
 
 ## Screenshots
 
 <div align="center">
-
-<img style="display: block;" src="./images/screenshots.webp">
-
+  <img style="display: block;" src="./images/screenshots.webp">
 </div>
 
 ## Demos
-
 
 | <video src="https://github.com/Taewan-P/gpt_mobile/assets/27392567/96229e6d-6795-48b4-a915-aca915bd2527"/> | <video src="https://github.com/Taewan-P/gpt_mobile/assets/27392567/1cc13413-7320-4f6f-ace9-de76de58adcc"/> | <video src="https://github.com/Taewan-P/gpt_mobile/assets/27392567/546e2694-953d-4d67-937f-a29fba81046f"/> |
 |------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 
 
-## Features
+## Features (as they relate to education)
 
-- **Chat with multiple models at once**
-  - Uses official APIs for each platforms
-  - Supported platforms:
-    - OpenAI GPT
-    - Anthropic Claude
-    - Google Gemini
-    - Groq
-    - Ollama
-  - Can customize temperature, top p (Nucleus sampling), and system prompt
-  - Custom API URLs, Custom Models are also supported
-- Local chat history
-  - Chat history is **only saved locally**
-  - Only sends to official API servers while chatting
-- [Material You](https://m3.material.io/) style UI, Icons
-  - Supports dark mode, system dynamic theming **without Activity restart**
-- Per app language setting for Android 13+
-- 100% Kotlin, Jetpack Compose, Single Activity, [Modern App Architecture](https://developer.android.com/topic/architecture#modern-app-architecture) in Android developers documentation
+*   **Multiple AI Model Access:** Explore different AI models (OpenAI GPT, Anthropic Claude, Google Gemini) and compare their educational applications.
+*   **Customizable Prompts:** Experiment with prompts to tailor learning experiences for various educational needs.
+*   **Local Chat History:** Track and analyze interaction patterns for learning purposes (note that data is stored only locally and will not be shared).
+*   **Material You Design:** Demonstrate how a modern UI can enhance user experience in educational apps.
+*   **Built with Kotlin:** Show how modern Android development techniques can be used to develop educational tools.
 
+## Usage Scenarios in Education
 
-## To be supported
+This project can be used in the following educational scenarios:
 
-- More platforms
-- Image, file support for multimodal models
-
-If you have any feature requests, please open an issue.
-
+*   **Personal Tutor:** Students can use AI to ask questions, clarify concepts, and receive feedback.
+*   **Learning Companion:** AI can be used as a tool to explore subjects, summarize information, and learn new skills.
+*   **Lesson Planning Tool:** Educators can experiment with using AI to generate lesson plans, quizzes, and assignments.
+*   **Accessibility Tool:** AI can be used to provide translation, text-to-speech, and other accessibility features for students with diverse needs.
 
 ## Downloads
 
-You can download the app from the following sites:
+This is a research project, not a finished product. If you are interested in exploring the educational potential of AI, feel free to use this code as a starting point. To download the original application:
 
 [<img height="80" alt="Get it on F-Droid" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"/>](https://f-droid.org/packages/dev.chungjungsoo.gptmobile)
 [<img height="80" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>](https://play.google.com/store/apps/details?id=dev.chungjungsoo.gptmobile&utm_source=github&utm_campaign=gh-readme)
 [<img height="80" alt='Get it on GitHub' src='https://raw.githubusercontent.com/Kunzisoft/Github-badge/main/get-it-on-github.png'/>](https://github.com/Taewan-P/gpt_mobile/releases)
 
-Cross platform updates are supported. However, GitHub Releases will be the fastest track among the platforms since there is no verification/auditing process. (Probably 1 week difference?)
-
-
-
 ## Contributions
 
-Contributions are welcome! The contribution guideline is not yet available, but I will be happy to review it! 💯
+This project is based on the open-source application *GPT Mobile*. Any contributions made to this project should also follow the same open-source principles.
 
-For translations, we are using [Hosted Weblate](https://hosted.weblate.org/engage/gptmobile/). If you want your language supported, help us translate the app!
+## Original Project
 
-<a href="https://hosted.weblate.org/engage/gptmobile/">
-  <img src="https://hosted.weblate.org/widget/gptmobile/gptmobile/multi-auto.svg" alt="Translation status" />
-</a>
-
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Taewan-P/gpt_mobile&type=Timeline)](https://star-history.com/#Taewan-P/gpt_mobile&Timeline)
-
+This project is a modification of [GPT Mobile](https://github.com/Taewan-P/gpt_mobile) under the [GPL-3.0 license](https://github.com/Taewan-P/gpt_mobile/blob/main/LICENSE). You are encouraged to visit the original repository for more information.
 
 ## License
 
-See [LICENSE](./LICENSE) for details.
+This project is licensed under the GPL-3.0 license. See [LICENSE](./LICENSE) for details.
 
 [F-Droid Icon License](https://gitlab.com/fdroid/artwork/-/blob/master/fdroid-logo-2015/README.md)
