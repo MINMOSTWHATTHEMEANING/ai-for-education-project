@@ -33,12 +33,6 @@ This project focuses on the following aspects of AI in education, utilizing GPT 
   <img style="display: block;" src="./images/screenshots.webp">
 </div>
 
-## Demos
-
-| <video src="https://github.com/Taewan-P/gpt_mobile/assets/27392567/96229e6d-6795-48b4-a915-aca915bd2527"/> | <video src="https://github.com/Taewan-P/gpt_mobile/assets/27392567/1cc13413-7320-4f6f-ace9-de76de58adcc"/> | <video src="https://github.com/Taewan-P/gpt_mobile/assets/27392567/546e2694-953d-4d67-937f-a29fba81046f"/> |
-|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-
-
 ## Features (as they relate to education)
 
 *   **Multiple AI Model Access:** Explore different AI models (OpenAI GPT, Anthropic Claude, Google Gemini) and compare their educational applications.
