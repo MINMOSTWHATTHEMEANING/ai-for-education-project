@@ -6,8 +6,8 @@
   ### A Chat Assistant for Android to Investigate AI in Education
 
 <p>
-  <img alt="Android" src="https://img.shields.io/badge/Platform-Android-green.svg"/>
-    <a href="https://github.com/Taewan-P/gpt_mobile"><img alt="Original Project" src="https://img.shields.io/badge/Original Project-GPT%20Mobile-blue"/></a>
+  <img alt="Android" src="app/src/main/res/mipmap-anydpi/aw.png"/>
+    <a href="https://github.com/Taewan-P/gpt_mobile"><img alt="Original Project" src="app/src/main/res/mipmap-anydpi/aw.png"/></a>
 
 </p>
 
